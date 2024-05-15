@@ -1,0 +1,13 @@
+/*attribute selectors*/
+li[class]{
+    font-size: 300%;
+}
+
+li[class="a"]{
+    color: royalblue;
+    list-style-type: lower-alpha;
+}
+
+li[class~="a"]{/*select all tags that have "a" class*/
+    color:red;
+}
