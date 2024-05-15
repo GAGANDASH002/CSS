@@ -1,0 +1,11 @@
+
+/*element selectors*/
+
+p,a{
+    color:green;
+}
+
+li{
+    list-style-type: square;
+}
+
