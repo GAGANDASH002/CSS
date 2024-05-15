@@ -1,0 +1,37 @@
+/*class selectors*/
+
+.special{
+    color: orange;
+    font-weight: bold ;
+}
+
+/*select one element in class*/
+span.special{
+    color:aqua
+}
+
+/*descendant combinators:selects tags within tags*/
+li em{/*all em tags within li tags are selected*/
+    color: rebeccapurple;
+}
+
+/*adjacent combinators:gets next sibling */
+
+h1+p{/*immediate next p tag after h1 tag is selected*/
+    color: green;
+    font-size: 200%;
+}
+
+/*pseudo class selector*/
+a:hover{
+    color:saddlebrown;
+    text-decoration: none;
+}
+
+/*writing all selectors together*/
+
+body h1+p .special{/*spccial class element in the immediate p tag after h1 in the body is selected*/
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
