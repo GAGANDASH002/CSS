@@ -1,0 +1,90 @@
+*{
+    background-color: rgba(236, 197, 152, 0.082);
+    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8zKvxws3YHumKgra-qJafMudMddJeZUmyDJiOnq818Q&s);
+    background-repeat: no-repeat;
+    background-size:cover;*/
+    box-sizing:border-box;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    font-weight: 100;
+    margin:10px;
+    text-decoration: underline;
+    text-shadow: 1px 2px 1px rgba(17, 17, 20, 0.984);
+}
+
+#field{
+    color: rgb(199, 252, 7);;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding:10px;
+    margin:10px;
+    width:100%;
+    background-image: url(https://img.freepik.com/free-photo/colorful-wavy-shapes_1048-5234.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one{
+    text-decoration:underline;
+}
+
+.two:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.three:hover{
+    color:black;
+    cursor: pointer;
+}
+
+#field2{
+    background-image: url(https://img.freepik.com/free-photo/colorful-wavy-shapes_1048-5234.jpg);
+    color: rgb(199, 252, 7);
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding:10px;
+    margin:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color:rgb(197, 210, 59);
+    text-shadow: 1px 2px 1px rgb(90, 56, 5);
+    font-family:cursive;
+    padding:2px;
+}
+
+input[type="submit"]{
+       background-color: rgba(141, 240, 21, 0.71);
+       border: none;
+       width: 100%;
+       color:black;
+       padding:12px 20px;
+       font-family:Poetsen One;
+       cursor:pointer;
+       font-size: large;
+       font-weight: 200;
+}
+
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}
+
+body{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8zKvxws3YHumKgra-qJafMudMddJeZUmyDJiOnq818Q&s);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#para{
+    color:rgb(27, 25, 27);
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
