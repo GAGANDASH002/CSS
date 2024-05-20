@@ -1,0 +1,40 @@
+/*html code is commented out
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <style>*/
+        html{
+            font-size: 1em;
+        }
+
+        @media screen and (max-width:600px) and (orientation: landscape) {
+            body {
+                color:red;
+            }
+        }
+
+        /*@media screen and (max-width:200px),
+        screen and (orientation: landscape) {
+            body{
+                color: blue;
+            }
+        }*/
+
+        @media not all and (orientation: landscape){
+            body{
+                color: rgb(14, 123, 219);
+            }
+        }
+        
+   /* </style>
+</head>
+<body>
+    <p>It's always good to bring a slower friend with you on a hike. If you happen to come across bears, the whole group doesn't have to worry.</p>
+    <p>Only the slowest in the group do. That was the lesson they were about to learn that day.</p>
+</body>
+</html>
+*/
