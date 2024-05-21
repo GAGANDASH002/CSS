@@ -1,0 +1,55 @@
+
+/*html code is commented out
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float property</title>
+    <style>*/
+        body{
+            margin:auto;
+            max-width: 900px;
+            width:90%
+        }
+        
+        #box{
+            float: left;
+            margin: 15px;
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            background-color: lightblue;
+            padding: 1em;
+        }
+
+        .special{
+            background-color: lightskyblue;
+            padding: 15px;
+            color: white;
+        }
+
+        .cleared{
+            clear: left;
+        }
+    /*</style>
+</head>
+<body>
+    <h1>Float Property</h1>
+    <img id="box" src="https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png" alt="user">
+    <h1 class="special">Resume</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sed ab, quos adipisci
+    </p>
+
+    <p class="cleared">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sed ab, quos adipisci optio neque molestias placeat accusantium eaque, odio error ea nesciunt dolores sequi perspiciatis ad eligendi excepturi aspernatur eius! Quo suscipit illo velit molestiae error. Labore repudiandae perspiciatis impedit, culpa 
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sed ab, quos adipisci optio neque molestias placeat accusantium eaque, odio error ea nesciunt dolores sequi perspiciatis ad eligendi excepturi aspernatur eius! Quo suscipit illo velit molestiae error. Labore repudiandae perspiciatis impedit, culpa 
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sed ab, quos adipisci optio neque molestias placeat accusantium eaque, odio error ea nesciunt dolores sequi perspiciatis ad eligendi excepturi aspernatur eius! Quo suscipit illo velit molestiae error. Labore repudiandae perspiciatis impedit, culpa 
+    </p>
+
+</body>
+</html>*/
