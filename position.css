@@ -1,10 +1,12 @@
+/*html code is commented out
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position property</title>
-    <style>
+    <style>*/
         .box-set,.box{
             border-radius:6px ;
         }
@@ -25,7 +27,7 @@
         .box-1{
             right: 20px;
         }
-    </style>
+    /*</style>
 </head>
 <body>
     <div class="box-set">
@@ -35,4 +37,4 @@
         <div class="box box-4">box4</div>
     </div>
 </body>
-</html>
+</html>*/
