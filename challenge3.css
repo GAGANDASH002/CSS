@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: aqua;
+            font-size: 40px;
+            height: 150px;
+        }
+
+        .box1{
+            float: left;
+            margin: 15px;
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            padding: 1em;
+        }
+
+        .box2{
+            float: right;
+            margin: 15px;
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            padding: 1em;
+        }
+
+        .box3{
+            float:left;
+            margin: 15px;
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+            padding: 1em;
+        }
+
+        .box4{
+            float: right;
+            margin: 15px;
+            width: 100px;
+            height: 100px;
+            border-radius: 4px;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+        <img class="box1" src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="box1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eos!</p>
+        <img class="box2" src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="box2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ratione.</p>
+        <img class="box3" src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="box3">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, molestiae?</p>
+        <img class="box4" src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="box4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quia?</p>
+</body>
+</html>
