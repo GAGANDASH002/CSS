@@ -1,10 +1,12 @@
+/*html code is commented out
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    <style>*/
         p{
             background-color: aqua;
             font-size: 40px;
@@ -46,7 +48,7 @@
             border-radius: 4px;
             padding: 1em;
         }
-    </style>
+    /*</style>
 </head>
 <body>
         <img class="box1" src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="box1">
@@ -58,4 +60,4 @@
         <img class="box4" src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="box4">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quia?</p>
 </body>
-</html>
+</html>*/
