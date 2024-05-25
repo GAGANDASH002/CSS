@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: palevioletred;
+  height: 100px;
+  text-align: center;
+  padding: 4px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 8, 6, 0.97);
+  padding: 10px;
+  font-size: 20px;
+}
+
+nav a {
+  padding: 40px;
+  text-emphasis: center;
+  text-decoration: none;
+  color: wheat;
+}
+
+h2 {
+  font-size: 70px;
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+h2 + p {
+  font-size: 40px;
+}
