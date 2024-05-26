@@ -3,6 +3,7 @@ body{
     font-size: 25px;
     font-weight: bold;
     line-height: 1.4;
+    margin:0;
 }
 
 .container{
@@ -11,6 +12,7 @@ body{
 
 .special{
     display: block;
+    margin: 0;
 }
 
 #flex-item-1{
@@ -21,21 +23,21 @@ body{
 }
 
 #flex-item-2{
-    width:70vw;
+    width:80vw;
     height: 20vh;
     background-color: rgb(75, 211, 75);
     padding: 25px;
 }
 
 #flex-item-3{
-    width:70vw;
+    width:80vw;
     height: 44vh;
     background-color: rgb(230, 222, 207);
     padding: 25px;
 }
 
 #flex-item-4{
-    width:70vw;
+    width:80vw;
     height: 18.8vh;
     background-color: rgb(75, 211, 75);
     padding: 25px;
