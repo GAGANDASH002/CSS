@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border:2px solid red;
+            border-collapse: collapse;
+            padding: 20px;
+            border-spacing: 5px;
+        }
+
+        th{
+            background-color: tomato;
+        }
+
+        td{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th>Course Name</th>
+            <th>Courses Offered</th>
+            <th>Price</th>
+            <th>Course Validity</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ALPHA</td>
+                <td>NDA written</td>
+                <td>Rs 2000/-</td>
+                <td>3 months</td>
+            </tr>
+            <tr>
+                <td>CONQUEOR</td>
+                <td>Online SSB mentorship</td>
+                <td>Rs 1000/-</td>
+                <td>2 months</td>
+            </tr>
+            <tr>
+                <td>SAMARTH</td>
+                <td>NDA/CDS written + SSB training</td>
+                <td>Rs 5000/-</td>
+                <td>5 months</td>
+            </tr>
+            <tr>
+                <td>SAMARTH+</td>
+                <td>NDA/CDS written + SSB training + one-to-one mentorship</td>
+                <td>Rs 7000/-</td>
+                <td>All time</td>
+            </tr>
+            <tfoot>
+                <th>Contact details: 9812346508</th>
+                <th colspan="4">Mail: ssbconquer@gmail.com</th>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
