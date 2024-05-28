@@ -1,0 +1,21 @@
+/*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>*/
+        div{
+            background-color: yellow;
+            padding: 10px;
+            border: 10px solid saddlebrown;
+            margin: 20px;/*bg colour not visible in margin but visble within padding */
+        }
+    /*</style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, similique id iure nulla culpa ipsam. Perferendis fugit est aspernatur repudiandae reiciendis error unde, mollitia officia labore totam earum corporis exercitationem quis amet ratione atque veniam. Magnam doloribus, ab aliquid minus sed obcaecati. A est ullam itaque voluptatum ipsum rem ratione.
+    </div>
+</body>
+</html>*/
