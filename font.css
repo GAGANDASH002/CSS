@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <title>Fonts in CSS</title>
+    <style>
+        h1{
+            font-size: 50px;
+            font-family:Dancing Script;
+            font-style: oblique;
+            font-weight:500;
+            color:royalblue;
+            text-transform:uppercase;
+            text-shadow: 4px 4px 1px red;
+            text-align:center
+        }
+
+        p{
+            font-variant: small-caps;
+            font-size: 20px;
+            font-style: oblique;
+            color:rebeccapurple;
+            text-align: left;
+            line-height: 2;
+            text-indent: 50px;
+            word-spacing: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interstellar</h1>
+    <p>Interstellar is a Christopher Nolan movie exploring the vast galaxy through a time and space paradox. 
+        The movie primarily focuses on life. Earth is coming to an end and a few astronauts are traveling 
+        to find another home at the end of the galaxy.</p>
+</body>
+</html>
