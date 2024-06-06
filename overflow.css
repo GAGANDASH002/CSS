@@ -1,0 +1,24 @@
+<!--preventing overflow-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid red;
+            width: 200px;
+            height: 40px;/*overflow*/
+            overflow: hidden;/*overflown text is hidden*/
+            /*overflow: scroll;
+            /*overflow: auto;/*can be scrolled only if overflow exists*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box">This box has a height and a width Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque sit nemo, voluptatem consequatur porro cupiditate, quibusdam nostrum libero fuga aperiam explicabo? Culpa natus voluptatum eius labore ullam vel impedit, cum expedita voluptate ut soluta repudiandae quibusdam magni dicta cumque eum eos maiores delectus architecto atque, laboriosam modi id possimus nulla.</div>
+    
+</body>
+</html>
