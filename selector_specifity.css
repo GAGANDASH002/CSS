@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/specifity.css">
+    <style>
+        .best{
+            color: red;
+            font-weight: bold;
+        }
+
+        /*this has higher specifity than .best hence this will be executed
+        ul#summer-drinks li{
+            font-size:12px;
+            color: black;
+            font-weight:normal;
+        }*/
+
+        .best{
+            color: green;
+            font-weight: bold;
+        }
+        /* <link rel="stylesheet" href="../CSS/specifity.css">
+    if this line is written here then specifity.css will be executed as the code is executed in order if same attribute's properties are being changed */
+    </style>
+    <title>Specifity</title>
+</head>
+<body>
+    <ul id="summer-drinks">
+        <li>Sugarcane Juic</li>
+        <li class="best">Cold Coffee</li>
+        <li>Rooh Afza</li>
+        <li>Lassi</li>
+    </ul>
+</body>
+</html>
