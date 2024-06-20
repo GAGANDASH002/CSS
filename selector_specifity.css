@@ -1,10 +1,12 @@
+/*(html code is commented out)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/specifity.css">
-    <style>
+    <style>*/
         .best{
             color: red;
             font-weight: bold;
@@ -21,9 +23,10 @@
             color: green;
             font-weight: bold;
         }
+        /*if this line is written here then specifity.css will be executed as the code is executed in order if same attribute's properties are being changed */
         /* <link rel="stylesheet" href="../CSS/specifity.css">
-    if this line is written here then specifity.css will be executed as the code is executed in order if same attribute's properties are being changed */
-    </style>
+
+    /*</style>
     <title>Specifity</title>
 </head>
 <body>
